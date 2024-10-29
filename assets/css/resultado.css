@@ -1,0 +1,27 @@
+
+th,td{
+    padding: 10px;
+    margin:2px ;
+    font-size: 1rem;
+}
+th{
+    background: rgb(8, 8, 8);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+td{
+    color: black;
+    background-color: aliceblue;
+}
+tr{
+    cursor: pointer;
+    width: 100dvw;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
